@@ -1,0 +1,22 @@
+{
+  "name": "ms_project",
+  "version": "1.0.0",
+  "description": "microservice project [database access(mlab) and message queue communication(RabbitMQ)]",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "microservice",
+    "message",
+    "queue",
+    "database"
+  ],
+  "author": "Balog Edina & Balog Roland",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.0"
+  }
+}
