@@ -1,0 +1,20 @@
+{
+  "name": "mq_project",
+  "version": "1.0.0",
+  "description": "microservices based on message queue communication, with database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "microservice",
+    "message",
+    "queue",
+    "database"
+  ],
+  "author": "Balog Roland & Balog Edina",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.1"
+  }
+}
